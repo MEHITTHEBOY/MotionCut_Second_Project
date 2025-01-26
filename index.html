@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMAGE SLIDER</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- slider -->
+
+    <div class="slider">
+        <!-- list Items -->
+        <div class="list">
+            <div class="item active">
+                <img src="./Images/image1.jpg">
+                <div class="content">
+                    <h2>"American Food"</h2>
+                    <p>
+                        American cuisine is known for its bold and hearty flavors, which are created through the use of a range of spices and herbs... 
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="./Images/image2.jpg">
+                <div class="content">
+                    <h2>"Audio Mixing Console"</h2>
+                    <p>
+                        Audio mixing console or soundboard, which is commonly used in music production, recording studios, or live performances...
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="./Images/image3.jpg">
+                <div class="content">
+                    <h2>"Traditional Vibrant Attire"</h2>
+                    <p>
+                        In India, clothing similar to this—vibrant, handwoven, and richly patterned—is traditionally worn in regions with tribal or indigenous communities...
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="Images/image4.jpg">
+                <div class="content">
+                    <h2>"High-Speed Cornering on the Track"</h2>
+                    <p>
+                        An adrenaline-filled moment of a motorcyclist leaning into a sharp turn on a race track....
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="Images/image5.jpg">
+                <div class="content">
+                    <h2>"Close-Up of a Painted Turtle"</h2>
+                    <p>
+                        The shallow depth of field emphasizes the turtle's face while blurring the background, creating an intimate portrait of this fascinating reptile...
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="Images/image6.jpg">
+                <div class="content">
+                    <h2>"Celebrating Cricketing Excellence"</h2>
+                    <p>
+                        Rohit Sharma is an Indian international cricketer who currently plays for and captains the India national cricket team in Test and ODI matches...
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="Images/image8.jpg">
+                <div class="content">
+                    <h2>"Indian Railways"</h2>
+                    <p>
+                        Indian Railways (IR) is a state-owned company that operates India's national railway system. It is the fourth largest railway system in the world...
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="Images/image9.jpg">
+                <div class="content">
+                    <h2>"Chatrapati Shivaji Maharaj"</h2>
+                    <p>
+                        Chhatrapati Shivaji Maharaj (1630–1680) was the founder of the Maratha Empire in western India....
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- button arrows -->
+        <div class="arrows">
+            <button title="Previous" id="prev"><i class="fa-solid fa-arrow-left"></i></button>
+            <button title="Pause" id="pause"><i class="fa-solid fa-pause"></i></button>
+            <button title="Next" id="next"><i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+    </div>
+    <!-- thumbnail -->
+    <div class="thumbnail">
+        <div class="item active">
+            <i id="mode" title="Enter fullscreen" class="fa-solid fa-expand"></i>
+            <img src="Images/image1.jpg">
+            <div class="content">
+                American Food
+            </div>
+        </div>
+        <div class="item">
+            <i id="mode" title="Enter fullscreen" class="fa-solid fa-expand"></i>
+            <img src="Images/image2.jpg">
+            <div class="content">
+                Audio Mixing Console
+            </div>
+        </div>
+        <div class="item">
+            <i id="mode" title="Enter fullscreen" class="fa-solid fa-expand"></i>
+            <img src="Images/image3.jpg">
+            <div class="content">
+                Traditional Vibrant Attire
+            </div>
+        </div>
+        <div class="item">
+            <i id="mode" title="Enter fullscreen" class="fa-solid fa-expand"></i>
+            <img src="Images/image4.jpg">
+            <div class="content">
+                High-Speed Cornering on the Track
+            </div>
+        </div>
+        <div class="item">
+            <i id="mode" title="Enter fullscreen" class="fa-solid fa-expand"></i>
+            <img src="Images/image5.jpg">
+            <div class="content">
+                Close-Up of a Painted Turtle
+            </div>
+        </div>
+        <div class="item">
+            <i id="mode" title="Enter fullscreen" class="fa-solid fa-expand"></i>
+            <img src="Images/image6.jpg">
+            <div class="content">
+                Celebrating Cricketing Excellence
+            </div>
+        </div>
+        <div class="item">
+            <i id="mode" title="Enter fullscreen" class="fa-solid fa-expand"></i>
+            <img src="Images/image8.jpg">
+            <div class="content">
+                Indian Railways
+            </div>
+        </div>
+        <div class="item">
+            <i id="mode" title="Enter fullscreen" class="fa-solid fa-expand"></i>
+            <img src="Images/image9.jpg">
+            <div class="content">
+                Chatrapati Shivaji Maharaj
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
